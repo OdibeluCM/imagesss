@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <h1 class="logo">NATURE</h1>
+    <ul class="nav-links">
+      <li class="active"><a href=""></a>Home</li>
+      <li><a href=""></a>Tours</li>
+      <li><a href=""></a>Explore</li>
+      <li><a href=""></a>About</li>
+      <li class="ctn"><a href="" ></a>Contact</li>
+    </ul>
+    <img src="./Hamburger Menu.svg" alt="" class="menu-btn">
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <h2>The beauty of nature</h2>
+      <div class="line"></div>
+      <h1>A FASCINATING SIGHT TO BEHOLD</h1>
+      <a href="#" class="ctn">view more</a>
+    </div>    
+  </header>
+
+  <section class="events">
+    <div class="title">
+      <h1>Nature sights</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="./IMG_8828.JPG" alt="">
+        <h4>animals</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et excepturi nostrum maiores consectetur optio ipsam similique labore. Qui, ullam rerum officiis reiciendis eveniet natus accusantium provident a esse numquam.
+        </p>
+        <a href="#" class="ctn">view more</a>
+      </div>
+      <div class="col">
+        <img src="./IMG_8839.JPG" alt="">
+        <h4>trees</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et excepturi nostrum maiores consectetur optio ipsam similique labore. Qui, ullam rerum officiis reiciendis eveniet natus accusantium provident a esse numquam.
+        </p>
+        <a href="#" class="ctn">view more</a>
+      </div>
+    </div>
+
+  </section>
+    
+  <section class="explore">
+    <div class="explore-content">
+      <h1>EXPLORE NATURE</h1>
+      <div class="line"></div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum ut omnis temporibus, ea deserunt perferendis consequatur ipsa eius vel?</P>
+      <a href="#" class="ctn">view more</a>
+    </div>    
+    
+  </section>
+
+  <section class="tours">
+    <div class="row">
+      <div class="col content-col">
+        <h1>TOUR THE BEACHES AND SEAS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque minus amet iure cupiditate nobis incidunt officia quidem earum facere aperiam, at laborum animi id, qui ipsum voluptatem saepe soluta maxime.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col image-col">
+        <div class="image-gallery">
+          <img src="./IMG_8835.JPG" alt="">
+          <img src="./IMG_8831.JPG" alt="">
+          <img src="./IMG_8832.JPG" alt="">
+          <img src="./IMG_8833.JPG" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    const menuBtn = document.queryselector('.menu-btn')
+    const navlinks = document.queryselector('.nav-links')
+
+    menuBtn.addEventListener("click",()=>{
+      navlinks.classlist.toggle('.mobile-menu')
+    })
+  </script>
+
+</body>
+</html>
